@@ -1,0 +1,17 @@
+Npop = 76
+Narchive = 10
+Sp = 2
+alpha = 0.7
+Gmax = 75
+pmut = 1
+Ntour = 10
+
+nb_x = 12
+nb_fonction = 3
+nb_contrainte = 4
+
+# 0 = NumOnd_1, 1 = Nps_1, 2 = Npp_1, 3 = gamma_1, 4 = i_1, 5 = nbinsta_1, 6 = NumOnd_2, 7 = Nps_2, 8 = Npp_2, 9 = gamma_2, 10 = i_2, 11 = nbinsta_2
+VarDicr = [1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1]
+ArDicr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] # arrondi des variables
+xmax = [2, 30, 30, 60, 45, 50, 2, 30, 30, 60, 45, 50]
+xmin = [1, 10, 1, -60, 30, 1, 1, 10, 1, -60, 30, 1]
